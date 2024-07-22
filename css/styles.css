@@ -60,6 +60,7 @@ address {
   line-height: 1.07;
   text-align: center;
   color: #fff;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
   background: #4d5ae5;
@@ -89,6 +90,9 @@ address {
 .team {
   background-color: #f4f4fd;
 }
+.team-item {
+  background-color: #fff;
+}
 .team-title,
 .portfolio-title {
   font-weight: 700;
@@ -97,6 +101,7 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .team-item .subtitle,
