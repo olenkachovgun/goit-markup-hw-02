@@ -57,7 +57,7 @@ address {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
   color: #fff;
 }
@@ -67,4 +67,41 @@ address {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+/* section advantages */
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.advantages-text {
+  font-weight: 400;
+}
+/* section team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-item .subtitle {
+  text-align: center;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
