@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-size: 16px;
+  background-color: #fff;
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.page-footer,
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #fff;
+}
+.hero-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
