@@ -80,8 +80,9 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
-.advantages-text {
+.text {
   font-weight: 400;
 }
 /* section team */
@@ -98,7 +99,8 @@ address {
   text-transform: capitalize;
 }
 
-.team-item .subtitle {
+.team-item .subtitle,
+.team-item .text {
   text-align: center;
 }
 
